@@ -1,0 +1,10 @@
+.article{
+  border: 2px solid #000000;
+}
+.imagen{
+  border-bottom:2px solid black;
+}
+.article h1{
+  align-self: end;
+  justify-self: center;
+}

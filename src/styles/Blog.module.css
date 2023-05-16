@@ -1,0 +1,26 @@
+.contenedor{
+  display: grid;
+  gap: 4rem;
+}
+.contenedor h1{
+  align-self: end;
+  justify-self: center;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+@media(min-width: 768px){
+  .contenedor{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(min-width: 992px){
+  .contenedor{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media(min-width: 1200px){
+  .contenedor{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
